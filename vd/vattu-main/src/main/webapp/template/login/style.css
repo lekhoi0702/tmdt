@@ -1,0 +1,12 @@
+.selectpicker{
+    width: 50%;
+
+}
+
+.card-header {
+    text-align: center;
+}
+.card-header i{
+    font-size: 30px;
+    font-weight: 1000;
+}

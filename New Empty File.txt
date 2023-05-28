@@ -1,0 +1,14 @@
+//chua nang chuyen trang thani nv chua hoan thanh (tru slt sp khi giao hang thanh cong)
+
+//nhan tu khoa (admin,nhan vien)
+//nhan sp (admin,nhan vien)
+
+//chuc nang danh gia cho kh chua hoan thanh
+
+//chuc nang sua thong tin kh chua hoan thanh
+
+Chờ xác nhận duoc huy ddh (nv kh)
+
+//xoa sp gio hang 
+
+//quan ly khach hang

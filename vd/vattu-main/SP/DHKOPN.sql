@@ -1,0 +1,34 @@
+USE [QLVT_DATHANG]
+GO
+
+/****** Object:  StoredProcedure [dbo].[sp_DonHangKhongPhieuNhap]    Script Date: 5/30/2022 3:12:08 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[sp_DonHangKhongPhieuNhap]
+AS
+BEGIN
+SELECT DH.MasoDDH, 
+	DH.Ngay, 
+	DH.NhaCC, 
+	HOTEN,
+	TENVT,
+	SOLUONG,
+	DONGIA
+FROM 
+(SELECT MasoDDH, NGAY, NhaCC, HOTEN = (SELECT HOTEN = HO + ' ' + TEN 
+										FROM NhanVien 
+										WHERE DatHang.MANV = NhanVien.MANV) 
+	FROM DBO.DatHang) DH,
+ (SELECT MasoDDH,MAVT,SOLUONG,DONGIA FROM CTDDH ) CT,
+ (SELECT TENVT, MAVT FROM Vattu ) VT
+WHERE CT.MasoDDH = DH.MasoDDH
+AND VT.MAVT = CT.MAVT
+AND DH.MasoDDH NOT IN (SELECT MasoDDH FROM PhieuNhap)
+END
+
+GO
+

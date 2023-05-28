@@ -1,0 +1,147 @@
+return : 
+00 suscess
+01 bad request
+02 server error
+404 unavailable
+
+------------------------------------Nhan vien---------------------------------------------
+
+
+1/get Nhanvien
+
+url:localhost:8081/nhanvien 
+method: get
+
+return a list json format Nhanvien have DaNghi=0
+
+2/create nhanvien:
+url:localhost:8081/nhanvien 
+method: post
+
+ex json:
+{
+   
+    "hoTen": "Bad boy",
+    "ngaySinh": "1999-02-01",
+    "gioiTinh": 1,
+    "luong": 9000000,
+    "cmnd":"12345678910",
+    "ngayVaoLam":"2022-02-01",
+    "sdt":"0909232323",
+    "diaChi":"123 nguyen tu q2"
+}
+
+create a row in table nhanvien
+
+3/update nhanvien:
+url:localhost:8081/nhanvien 
+method: put
+
+ex json:
+{
+    "maNV": 999,
+    "hoTen": "Bad girl",
+    "ngaySinh": "1999-02-01",
+    "gioiTinh": 1,
+    "luong": 9000000,
+    "cmnd":"12345678910",
+    "ngayVaoLam":"2022-02-01",
+    "sdt":"0909232323",
+    "diaChi":"123 nguyen tu q2"
+}
+update the row in nhanvien table has id == maNV in the request
+
+4/Patch 
+url:localhost:8081/nhanvien 
+method: delete
+ex json:
+{
+    "maNV": 999
+}
+change Danghi  rows in nhanvien table have id in ids to 1
+
+
+------------------------------------Ban---------------------------------------------
+
+
+1/get Ban
+
+url:localhost:8081/ban 
+method: get
+
+return a list json format Nhanvien have tinhtrang!=0
+
+2/create nhanvien:
+url:localhost:8081/ban 
+method: post
+
+ex json:
+
+   {
+       
+        {
+     
+        "soGhe": 3,
+        "loai": 2,
+        "tinhTrang": 3
+}
+}
+
+
+create a row in table ban
+
+3/update ban:
+url:localhost:8081/ban 
+method: put
+
+ex json:
+   {
+       "id": 1,
+        "soGhe": 3,
+        "loaiBan": 2,
+        "tinhTrang": 3
+}
+update the row in ban table has id == id in the request
+
+4/Patch 
+url:localhost:8081/nhanvien 
+method: delete
+ex json:
+{
+    "id": 999
+}
+change tinhtrang rows in nhanvien table have id in ids to 0
+
+----------------------------Chi phi---------------------
+giong ben tren
+1/ create
+ex json:
+{
+        
+        "tenChiPhi": "test",
+        "soLuong": 2,
+        "ngayNhap": "2021/09/09",
+        "giaDonVi":1000,
+        "loai": 1,
+        "donVi": "gam",
+        "ghiChu": "day la test",
+        "nvTao": 2,
+        "nhaCungCap": "cty tnhh jjdo"
+}
+2/ update
+ex json:
+{
+        "id" : "1",
+        "tenChiPhi": "test",
+        "soLuong": 2,
+        "ngayNhap": "2021/09/09",
+        "giaDonVi":1000,
+        "loai": 1,
+        "donVi": "gam",
+        "ghiChu": "day la test",
+        "nvTao": 2,
+        "nhaCungCap": "cty tnhh jjdo"
+}
+3/delete chua co
+--------------------------hoa don------------------------------- 
+

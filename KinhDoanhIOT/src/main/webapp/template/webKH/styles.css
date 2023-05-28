@@ -1,0 +1,257 @@
+
+.review-section {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.review {
+  margin-bottom: 20px;
+}
+
+.review-rating {
+  font-size: 20px;
+}
+
+.review-rating .star {
+  color: #ffd700;
+  text-shadow: 1px 1px #ccc;
+}
+
+.review-content {
+  margin-left: 30px;
+}
+
+.review-author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.review-text {
+  margin-top: 0;
+}
+
+
+/*------------------------------------ sidebar  -----------------------------------------*/
+.sidebar {
+	font-family:  sans-serif;
+    position: fixed;
+
+    padding: 0 14px;
+    background-color: #fff;
+    width: 230px;
+    box-shadow: 0px 0px 20px rgb(1 41 112 / 50%);
+    z-index: 200;
+    left: 0;
+    bottom: 0;
+    top: 76px;
+}
+@media (max-width: 1199px){
+    .sidebar {
+        left: -230px;
+    }
+}
+.sidebar .logo_name {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    color: #012970;
+    font-weight: 700;
+    
+}
+
+.sidebar ul li{
+    list-style: none;
+    width: 100%;
+    line-height: 40px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.sidebar ul li a i {
+    height: 50px;
+    line-height: 50px;
+    padding-right: 5px;
+}
+
+.sidebar ul {
+    margin-top: 30px
+}
+
+.sidebar ul li a {
+    color: #012970;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sidebar ul li a.a-active,
+.sidebar ul li:hover a{
+    color: #4154f1;
+    background: #f6f9ff;
+}
+/* ----------------------end sidebar ------------------------------*/
+
+*/---------------------main------------------------- */
+.main {
+    padding-top: 76px;
+    background-color: #ffffff;
+    min-height: 650px;
+}
+@media (min-width: 1200px) {
+    .main {
+        padding-left: 230px;
+    }
+}
+.shadow-box {
+    box-shadow: 0px 0rem 0.5rem 0px #908a8a;
+}
+
+left-content
+
+.content {
+    padding-right: 15px;
+    padding-left: 15px;
+    height: auto;
+    
+}
+.header-content {
+    margin-top: 24px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 40px;
+}
+.icon-header.d-flex {
+    justify-content: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.header-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-coffee {
+    font-size: 34px;
+    padding: 10px 15px 0 16px;
+    border: #030030 ridge 3px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.active-icon {
+    border: #2519ce ridge 3px;
+}
+.icon-coffee:hover {
+    border: #2519ce ridge 3px;
+    background-color: antiquewhite;
+}
+
+.table-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: aqua solid 4px;
+    background-color: lavender;
+    margin-top: 20px;
+}
+.icon-coffee i {
+    color:rgb(117, 97, 70)
+}
+.icon-coffee-small {
+    font-size: 26px;
+    padding: 14px 12px 14px 16px;
+}
+.icon-coffee-small:hover {
+    border: #030030 ridge 3px;
+    background-color: #fff;
+    cursor: inherit;
+}
+end left-content
+
+right-content
+.original-info {
+    flex-wrap: wrap;
+    margin: 28px;
+}
+.mg-0-40 {
+    margin: 0 40px;
+}
+
+.icon-add { 
+    font-size: 30px;
+    color: rgb(9, 78, 55);
+    padding: 10px;
+}
+
+.table-list {
+    width: 95%;
+    text-align: center; 
+    border: 3px solid #000 ;
+}
+.table-list,.table th {
+    text-align: center;
+}
+.table {
+    text-align: center;
+}
+.table th {
+    text-align: center;
+}
+
+
+.confirm-order {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.confirm-order-box {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.confirm-order-box h2 {
+  margin-top: 0;
+}
+
+.confirm-order-box p {
+  margin-bottom: 20px;
+}
+
+.confirm-order-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.confirm-order-yes,
+.confirm-order-no {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.confirm-order-yes:hover,
+.confirm-order-no:hover {
+  background-color: #0062cc;
+}
+

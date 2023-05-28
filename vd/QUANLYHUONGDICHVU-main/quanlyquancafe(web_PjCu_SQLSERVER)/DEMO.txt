@@ -1,0 +1,76 @@
+Nhóm 42
+
+yêu cầu
+
+jkd 1.8
+springMVC framework
+eclise
+maven
+tomcat 8.5
+
+để chạy demo mình cần sửa thông tin của sql server 2 chỗ
+1. src/main/webapp/WEB-INF/configs/spring-config-hibernate.xml dòng 23,24 
+2. src/main/resources/db.properties 
+
+Tài khoản admin demo:
+ User: admin
+ Password: 123
+Tài khoản nhân viên demo:
+ User: nhanvien1
+ Password: 123
+
+
+
+Bảng Phân Công
+
+
+Thành viên	MSSV	Tên
+1	N19DCCN203	Nguyễn Trần Đức Thuận
+2	N19DCCN033	Huỳnh Ngọc Dương
+3	N19DCCN113	Đinh Nho Nan
+
+
+
+
+
+
+
+
+
+Thành viên	Chức Năng	
+
+
+N19DCCN203	Khởi tạo và config dự án
+		Đăng Nhập
+		Đổi Avatar
+		Gửi email
+		Thanh toán
+		In hoá đơn
+		Quản lý Gọi món
+		Quản lý Đặt bàn 
+		Phân Quyền
+		Thiết kế và bảo trì cơ sở dữ liệu
+
+
+
+	
+N19DCCN033	Thiết kế giao diện web.
+		Sửa thông tin tài khoản,đổi mật khẩu.
+		Đặt bàn.
+		Xem hóa đơn.
+		Xem thực đơn.
+		Thống kê.
+		Quên mật khẩu.	
+
+
+
+N19DCCN113	Thêm sửa xóa tìm kiếm các chức năng quản lí nhân viên, quản lí hóa đơn, quản lí đặt hàng, quản lí chi phí, quản lí tài khoản, quản lí thực đơn, quản lí bàn
+		Gửi email quên mật khẩu
+		Đổi avatar
+		Sửa thông tin tài khoản, đổi mật khẩu
+		Thiếtkếgiaodiện admin
+		Thiết kế giao diện admin
+
+
+
+

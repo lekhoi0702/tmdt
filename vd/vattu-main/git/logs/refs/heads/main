@@ -1,0 +1,39 @@
+0000000000000000000000000000000000000000 b21d13ed491ddb9c3f2857539210ac22cb846dc5 thuanntd2001 <thiensudanduong12@gmail.com> 1651792213 +0700	commit (initial): first commit
+b21d13ed491ddb9c3f2857539210ac22cb846dc5 b21d13ed491ddb9c3f2857539210ac22cb846dc5 thuanntd2001 <thiensudanduong12@gmail.com> 1651792213 +0700	Branch: renamed refs/heads/master to refs/heads/main
+b21d13ed491ddb9c3f2857539210ac22cb846dc5 c6a3b5ed8dec6bf3a1517c6a0e5a81777cacd648 thuanntd2001 <thiensudanduong12@gmail.com> 1651792302 +0700	commit: 2nd commit
+c6a3b5ed8dec6bf3a1517c6a0e5a81777cacd648 3d6b1a19895463015263e3868f5eedffff47d92b thuanntd2001 <thiensudanduong12@gmail.com> 1652108972 +0700	commit: giao dien dang nhap
+3d6b1a19895463015263e3868f5eedffff47d92b 902b3a2249b840ea16d0fffc9d8de8ca8c7a4a63 thuanntd2001 <thiensudanduong12@gmail.com> 1652173671 +0700	commit: ket noi jpa va jdbc da server
+902b3a2249b840ea16d0fffc9d8de8ca8c7a4a63 2047f1a7b02e46ab41d24c3c7ac0e2187294a1ac thuanntd2001 <thiensudanduong12@gmail.com> 1652176702 +0700	commit: lam sach pj
+2047f1a7b02e46ab41d24c3c7ac0e2187294a1ac 36a6a709b162ef2f3a76a27d0f761c12ad439549 thuanntd2001 <thiensudanduong12@gmail.com> 1652180323 +0700	commit: hoan thanh giao dien form dang nhap
+36a6a709b162ef2f3a76a27d0f761c12ad439549 478ac32cdba7ad3af0fbb6e6ec78d7aa09520a0e thuanntd2001 <thiensudanduong12@gmail.com> 1652195733 +0700	commit: authorrization nhan vien
+478ac32cdba7ad3af0fbb6e6ec78d7aa09520a0e 661e70dbacade078b23699d283666448e96512d8 thuanntd2001 <thiensudanduong12@gmail.com> 1652245899 +0700	commit: sua loi redirect ko dung
+661e70dbacade078b23699d283666448e96512d8 319eeba6e73f4f7eba1c29ce50a84d3f211ca714 thuanntd2001 <thiensudanduong12@gmail.com> 1652251476 +0700	commit: add spring data jpa ang home controller
+319eeba6e73f4f7eba1c29ce50a84d3f211ca714 d87a9730c09609d22b3435643e9fd9601e7e75ea thuanntd2001 <thiensudanduong12@gmail.com> 1652271966 +0700	commit: mau entity
+d87a9730c09609d22b3435643e9fd9601e7e75ea 3dec452f195fadb5d254c3711b0b4725a91e684b thuanntd2001 <thiensudanduong12@gmail.com> 1652276689 +0700	commit: them giao dien chi nhanh home
+3dec452f195fadb5d254c3711b0b4725a91e684b 89370d00ade8b2987f0e3f4ab43ae04e15ad3e49 thuanntd2001 <thiensudanduong12@gmail.com> 1652332710 +0700	commit: commit truoc de save tien trinh truoc khi pull
+89370d00ade8b2987f0e3f4ab43ae04e15ad3e49 b74726212d224b5f0b2ac5b491b39855cfa561b0 thuanntd2001 <thiensudanduong12@gmail.com> 1652334589 +0700	commit (merge): debug entity
+b74726212d224b5f0b2ac5b491b39855cfa561b0 6050516bb14ef459785864b6fa3d6a9041e84083 thuanntd2001 <thiensudanduong12@gmail.com> 1652369692 +0700	commit: bind va sua view
+6050516bb14ef459785864b6fa3d6a9041e84083 92b995d4d58a931fe587246da8b0ae8177c26328 thuanntd2001 <thiensudanduong12@gmail.com> 1652370628 +0700	commit: bind va sua view
+92b995d4d58a931fe587246da8b0ae8177c26328 f3874a3f0235caba6d766969705518edd1eeb200 thuanntd2001 <thiensudanduong12@gmail.com> 1652371501 +0700	commit: bind va sua view
+f3874a3f0235caba6d766969705518edd1eeb200 f7692acd12b6360ddd306932fd99a4bcaa7930b7 thuanntd2001 <thiensudanduong12@gmail.com> 1652434151 +0700	commit: backup thay entity
+f7692acd12b6360ddd306932fd99a4bcaa7930b7 37f1178e40b4cbcde852e9e3a2ef87c0e8ea421e thuanntd2001 <thiensudanduong12@gmail.com> 1652524787 +0700	commit: them view show
+37f1178e40b4cbcde852e9e3a2ef87c0e8ea421e 3666c72d41f7751136cd27b169f49b5c56a6141b thuanntd2001 <thiensudanduong12@gmail.com> 1652535482 +0700	commit: xem don hang
+3666c72d41f7751136cd27b169f49b5c56a6141b 9a66e55e2a845012bfdba21f9ecffc55e6f827c1 thuanntd2001 <thiensudanduong12@gmail.com> 1652538299 +0700	commit: sua entity
+9a66e55e2a845012bfdba21f9ecffc55e6f827c1 03f416524fcd4eefa098c739c575c0c4f623d980 thuanntd2001 <thiensudanduong12@gmail.com> 1652540245 +0700	commit: view phieu xuat
+03f416524fcd4eefa098c739c575c0c4f623d980 e23e2e0e1cfff0d4e51320e33ed2e1f6a0751045 thuanntd2001 <thiensudanduong12@gmail.com> 1652619953 +0700	commit: view chitiet DDH
+e23e2e0e1cfff0d4e51320e33ed2e1f6a0751045 23ecdb1bf1e8095285f6d61b2ac710df535eed78 thuanntd2001 <thiensudanduong12@gmail.com> 1652623571 +0700	commit: view ctpn
+23ecdb1bf1e8095285f6d61b2ac710df535eed78 e852feb290c1f7cbf857a7d047b239a3b9882f42 thuanntd2001 <thiensudanduong12@gmail.com> 1652624502 +0700	commit: add view
+e852feb290c1f7cbf857a7d047b239a3b9882f42 733ec440fea11fcf6d447b6dac8689c89b1445e9 thuanntd2001 <thiensudanduong12@gmail.com> 1652625094 +0700	commit: loi commit trc commit lai
+733ec440fea11fcf6d447b6dac8689c89b1445e9 58f01ac0e4a32cf6b5fd703d917af36d4bd74484 thuanntd2001 <thiensudanduong12@gmail.com> 1652668053 +0700	commit: sua nv
+58f01ac0e4a32cf6b5fd703d917af36d4bd74484 6291fec09af5ac2879cd9250e0d7d129e34722a8 thuanntd2001 <thiensudanduong12@gmail.com> 1652685044 +0700	commit: sao luu
+6291fec09af5ac2879cd9250e0d7d129e34722a8 8c338ceca90c054fae8d69b65047425e55283ca6 thuanntd2001 <thiensudanduong12@gmail.com> 1652690930 +0700	commit: jdbc da server
+8c338ceca90c054fae8d69b65047425e55283ca6 9a35d6fbe5a774312a9f5241a4dbef248cd57ccb thuanntd2001 <thiensudanduong12@gmail.com> 1652753442 +0700	commit: pom.xml
+9a35d6fbe5a774312a9f5241a4dbef248cd57ccb f9192409d64509ea61f1d114949dfb86cf3396fb thuanntd2001 <thiensudanduong12@gmail.com> 1652754616 +0700	commit: pom.xml
+f9192409d64509ea61f1d114949dfb86cf3396fb ed987728facd12f627f1d68feb32b70bcac277fe thuanntd2001 <thiensudanduong12@gmail.com> 1652755125 +0700	commit: pom.xml
+ed987728facd12f627f1d68feb32b70bcac277fe 8b2d5a0305d974663f56b918376625ac43e22928 thuanntd2001 <thiensudanduong12@gmail.com> 1652780612 +0700	commit: chuyen doi jtds
+8b2d5a0305d974663f56b918376625ac43e22928 9a8611abc2e93eb9cc5e030d62e29111be5b21d1 thuanntd2001 <thiensudanduong12@gmail.com> 1652793583 +0700	commit: saoluu
+9a8611abc2e93eb9cc5e030d62e29111be5b21d1 7413e09bda36a2c0fc9a6a0bc4175aed964bd0d6 thuanntd2001 <thiensudanduong12@gmail.com> 1652848542 +0700	commit: cofig sv2
+7413e09bda36a2c0fc9a6a0bc4175aed964bd0d6 0307e79f8ef1ae9d8dcb7fc8e79ec699b94896cf thuanntd2001 <thiensudanduong12@gmail.com> 1652872984 +0700	commit: view save vattu
+0307e79f8ef1ae9d8dcb7fc8e79ec699b94896cf 1b7ece804ab6169f1789a1f510645d8d97a8ab89 thuanntd2001 <thiensudanduong12@gmail.com> 1653024130 +0700	commit: saoluu
+1b7ece804ab6169f1789a1f510645d8d97a8ab89 2727a98842fb6b4ecffd3c7cccd1274bb9d1ebfb thuanntd2001 <thiensudanduong12@gmail.com> 1653033072 +0700	commit: sua jsp
+2727a98842fb6b4ecffd3c7cccd1274bb9d1ebfb 9d9af53b7c56f26419de0e770c2ef3352c9afa7b thuanntd2001 <thiensudanduong12@gmail.com> 1653050041 +0700	commit: trc kh thay entity
